@@ -2,7 +2,7 @@
   "name": "gs",
   "version": "1.0.0",
   "description": "",
-  "main": "server,js",
+  "main": "node server.js",
   "dependencies": {
     "colyseus": "^0.14.20",
     "express": "^4.17.1",
@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server.js",
+    "test": ""
   },
   "author": "",
   "license": "ISC"
